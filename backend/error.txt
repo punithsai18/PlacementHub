@@ -1,0 +1,24 @@
+Azure SQL connection failed: Failed to connect to placementhub1914-sql.database.windows.net:1433 - Could not connect (sequence)
+Error: ConnectionError: Failed to connect to placementhub1914-sql.database.windows.net:1433 - Could not connect (sequence)
+    at C:\Users\punit\Downloads\cloudPro\backend\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:874:9)
+    at Object.onceWrapper (node:events:633:26)
+    at Connection.emit (node:events:518:28)
+    at Connection.emit (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:1013:18)
+    at C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:892:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to placementhub1914-sql.database.windows.net:1433 - Could not connect (sequence)
+      at Connection.wrapSocketError (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:1394:14)
+      at Connection.initialiseConnection (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:1066:20)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    code: 'ESOCKET',
+    [cause]: AggregateError: Could not connect (sequence)
+        at connectInSequence (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connector.js:108:9)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async Connection.connectOnPort (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:1249:18)
+        at async Connection.initialiseConnection (C:\Users\punit\Downloads\cloudPro\backend\node_modules\tedious\lib\connection.js:1063:18) {
+      [errors]: [Array]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "resumes/{studentId}/{name}",
+      "connection": "AZURE_STORAGE_CONNECTION_STRING",
+      "dataType": "binary"
+    }
+  ]
+}

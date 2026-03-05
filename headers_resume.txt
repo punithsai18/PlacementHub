@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 04 Mar 2026 15:58:14 GMT
+Access-Control-Allow-Headers: Content-Type,Authorization
+Access-Control-Allow-Origin: https://placementhub1914ui.z29.web.core.windows.net
+Set-Cookie: ARRAffinity=cd2af41350f181534b421eb341c4df17c9010868cd46d4f4cdc689f1afe37673;Path=/;HttpOnly;Secure;Domain=placementhub1914-web.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=cd2af41350f181534b421eb341c4df17c9010868cd46d4f4cdc689f1afe37673;Path=/;HttpOnly;SameSite=None;Secure;Domain=placementhub1914-web.azurewebsites.net
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
